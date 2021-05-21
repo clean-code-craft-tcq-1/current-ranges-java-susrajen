@@ -1,4 +1,4 @@
-# Test Driven Ranges
+# Test Driven Ranges - Note: Build fails because there is a failing test case
 
 This exercise extends the [Battery Monitoring] use-case.
 
@@ -52,5 +52,5 @@ Adapt/adopt/extend the `yml` files from one of your workflow folders.
 
 Implement one failing test and at least one passing test:
 
-- _enter the name of a **passing** test
-- _enter the name of a **failing** test
+- whenCurrentRangeValueIsEmpty_returnFalse()
+- whenCurrentReadingsIsPassed_expectAListOfRanges()
