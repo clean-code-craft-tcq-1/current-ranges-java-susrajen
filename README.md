@@ -1,4 +1,4 @@
-# Test Driven Ranges
+# Test Driven Ranges - Note: Build fails because there is a failing test case
 
 This exercise extends the [Battery Monitoring] use-case.
 
