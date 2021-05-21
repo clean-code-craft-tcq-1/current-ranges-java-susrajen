@@ -16,7 +16,7 @@ public class BatteryCurrentMonitor {
 				int differenceValue = valueToCompare - reading;
 				range = rangeCalculation(listOfRanges, range, differenceValue); 
 				range.add(reading);	
-				System.out.println(range);
+		
 			}
 		}
 		return listOfRanges;
@@ -24,7 +24,7 @@ public class BatteryCurrentMonitor {
 
 	public static ArrayList<Integer> rangeCalculation(ArrayList<ArrayList<Integer>> listOfRanges,
 			ArrayList<Integer> range, int differenceValue) {
-		System.out.println(range);
+
 		if(differenceValue > 1) {
 			listOfRanges.add(range);
 			range = new ArrayList<Integer>();
